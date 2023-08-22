@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <title>World Affairs | SignUp</title>
+</head>
+
+<body>
+  <form action="" method="">
+    <div class="container">
+
+      <h1 style="text-align: center;">SignUp Form</h1>
+      <h3 style="text-align: center; margin-bottom: 2rem;">Signup for getting latest news from World Affairs </h3>
+
+      <label><b>First name</b></label>
+      <input type="text" placeholder="Enter First name" id="firstname">
+
+      <label><b>Last name</b></label>
+      <input type="text" placeholder="Enter Last name" id="lastname">
+
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" id="username">
+
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" id="email">
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="password">
+
+      <button type="button" id="SubmitButton">Submit</button>
+      <button type="reset" id="ResetButton">Reset</button>
+
+    </div>
+  </form>
+  <p>Already have an account. <a href="http://127.0.0.1:5501/Signup/login.html">Login </a>Here</p>
+  <br>
+  <style>
+    * {
+      box-sizing: content-box;
+      width: 75%;
+      margin: auto;
+      margin-top: 2rem;
+      font-family: sans-serif
+    }
+
+    form {
+      border: 1px solid black;
+    }
+
+    p {
+      text-align: center;
+      padding-bottom: 28px;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 92%;
+      padding: 15px;
+      margin: 5px 0px 30px;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      width: 160px;
+      height: 43px;
+      margin: 20px 16px;
+      border: double;
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    button:hover {
+      opacity: 1;
+    }
+
+    #ResetButton {
+      background-color: #f44336;
+    }
+
+    .container {
+      margin: auto;
+    }
+  </style>
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <title>World Affairs | Login</title>
+</head>
+
+<body>
+
+  <form action="" method="">
+    <div class="container">
+
+      <h1 style="text-align: center;">Login Form</h1>
+      <h3 style="text-align: center;"></h3>
+
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" id="email">
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="password">
+
+      <button id="SubmitButton" type="button">Login</button>
+      <button id="ResetButton" type="reset">Reset</button>
+    </div>
+  </form>
+  <p id="messages"></p>
+  <p>Dont have an account? <a href="http://127.0.0.1:5501/Signup/index.html">SignUp </a>Here</p>
+  <style>
+    * {
+      box-sizing: content-box;
+      width: 75%;
+      margin: auto;
+      margin-top: 2rem;
+      font-family: sans-serif;
+    }
+
+    form {
+      border: 1px solid black;
+    }
+
+    p {
+      text-align: center;
+      padding-bottom: 28px;
+      text-decoration: none;
+    }
+
+    input[type=text],
+    input[type=password] {
+      width: 92%;
+      padding: 15px;
+      margin: 5px 0px 30px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      width: 160px;
+      height: 43px;
+      margin: 23px 8px;
+      border: double;
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    #ResetButton {
+      background-color: #f44336;
+    }
+
+    .container {
+      margin: auto;
+    }
+  </style>
+  <script src="./login.js"></script>
+</body>
+
+</html>
